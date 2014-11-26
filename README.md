@@ -1,7 +1,7 @@
 AndroidManifest-com-multiplas-tag-application
 =============================================
 
-Utilizando duas classes do tipo Application em um AndroidManifes
+Utilizando duas classes do tipo Application em um AndroidManifest
 
 Bom, depois de tanto quebrar a cabeça com essa questão que parece simples (e é), resolvi postar a solução para o problema.
 Recentemente precisei utilizar as bibliotecas Parse e Volley em uma aplicação que desenvolvi, daí veio o problema, ambas precisam ser declaradas na TAG Aplication do AndroidManifest, na propriedade android:name="pacote.NomeApplication".
